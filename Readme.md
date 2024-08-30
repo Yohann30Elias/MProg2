@@ -1,7 +1,7 @@
 # Projektname
 
 ## Figma Design
-[Hier klicken um das Figma Design anzusehen](#)
+[Hier klicken um das Figma Design anzusehen](https://www.figma.com/design/ySrwW7ryjZBBAtTaq7iKbf/MProg2?node-id=0-1&node-type=CANVAS&t=rS3Ko0R9bKKS1gzn-0)
 
 ## Installation
 
@@ -12,10 +12,10 @@
 ### Schritte
 1. Repository klonen:
    ```bash
-   git clone https://github.com/dein-benutzername/dein-repo.git
+   git clone https://github.com/
 2. In das Projektverzeichnis wechseln:
    ```bash
-   cd dein-repo
+   cd 
 3. Abhängigkeiten installieren:
    ```bash
    npm install
