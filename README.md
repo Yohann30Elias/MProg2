@@ -7,7 +7,7 @@
 [Projekt Plannung](https://github.com/users/Yohann30Elias/projects/1)
 
 ## Documentation
-[Projekt Documentation](https://github.com/Yohann30Elias/MProg2/wiki)
+[Projekt Dokumentation](https://github.com/Yohann30Elias/MProg2/wiki)
 
 ## Installation
 
