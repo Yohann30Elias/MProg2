@@ -22,7 +22,10 @@
 
 2. In das Projektverzeichnis wechseln:
    ```bash
-   cd [wie es halt heisst in deiner Ordner Struktur]
+   cd [Runtergeladener Ordner Name]
 4. Abhängigkeiten installieren:
    ```bash
    npm install
+5. Abhängigkeiten installieren:
+   ```bash
+   npm install react-router-dom
