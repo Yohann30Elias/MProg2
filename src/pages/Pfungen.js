@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/Pfungen.css";
 
 
 function Pfungen() {
