@@ -11,6 +11,7 @@ function App() {
   return (
     <body>
       <BrowserRouter>
+      
         <ul className="navigation">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Pfungen">Pfungen</Link></li>
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Ueber" element={<Ueber />} />
           <Route path="/Umgebung" element={<Umgebung />} />
         </Routes>
+
       </BrowserRouter>
     </body>
   );

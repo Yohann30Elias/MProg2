@@ -5,9 +5,9 @@ function Umgebung() {
   return (
     <div>
     <div className="Umgebungstyle">
-      <h1>Dis is Umgebung oder so</h1>
+      <h1>Umgebung vong Pfungen</h1>
       <p>
-        Hällölö
+        The Umgebung from Pfungen
       </p>
       </div>
       </div>

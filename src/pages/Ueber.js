@@ -7,7 +7,7 @@ function Ueber() {
     <div className="Ueberstyle">
       <h1>Über Pfungen</h1>
       <p>
-        Hällölö
+        Inhalt Über Pfungen wa
       </p>
       </div>
       </div>

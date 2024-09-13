@@ -3,13 +3,11 @@ import "../style/Pfungen.css";
 
 function Pfungen() {
   return (
-    <div>
     <div className="Pfungenstyle">
-      <h1>So Wunderschön is Pfungen</h1>
+      <h1>Pfungen</h1>
       <p>
-        Hällölö
+        des is Pfungen
       </p>
-      </div>
       </div>
   );
 }

@@ -3,14 +3,12 @@ import "../style/Home.css";
 
 function Home() {
   return (
-    <div>
     <div className="Homestyle">
-      <h1>Dis is Höme oder so</h1>
+      <h1>Homepage</h1>
       <p>
-        Hällölö
+        das ist die Homepage
       </p>
-      </div>
-      </div>
+    </div>
   );
 }
 
