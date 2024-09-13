@@ -4,7 +4,7 @@ import "../style/Ueber.css";
 function Ueber() {
   return (
     <div>
-    <div className="ueberstyle">
+    <div className="Ueberstyle">
       <h1>Über Pfungen</h1>
       <p>
         Hällölö

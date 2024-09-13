@@ -1,11 +1,10 @@
 import React from "react";
 import "../style/Pfungen.css";
 
-
 function Pfungen() {
   return (
     <div>
-    <div className="Homestyle">
+    <div className="Pfungenstyle">
       <h1>So Wunderschön is Pfungen</h1>
       <p>
         Hällölö
