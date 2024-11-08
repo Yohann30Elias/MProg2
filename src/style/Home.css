@@ -16,30 +16,31 @@
   
   /* Parallax-Abschnitt */
   .parallax {
-    background-image: url('../bilder/pfungen-banner.jpg');
+    background-image: url('../bilder/5my9Z0_d4Vw9LqaLN-nLZG.webp');
     
     height: 250px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
   }
 
 .geschichte-container {
     position: relative;
-    background-image: url('../bilder/pfungen-banner.jpg');
+    background-image: url('../bilder/5my9Z0_d4Vw9LqaLN-nLZG.webp');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    margin: 0;
 }
 
 .geschichte {
     width: 50%;
     height: 100%;
-    padding: 20px;
-    margin: 20px;
+    margin: 0px;
     background-color: lightcyan;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
