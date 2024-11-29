@@ -1,69 +1,72 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   
-  body, html {
-    height: 100%;
-    overflow-x: hidden;
-  }
+body, html {
+  height: 100%;
+  overflow-x: hidden;
+}
 
-.Homestyle {
-    font-family: Arial, sans-serif;
-    color: #333;
-  }
+  .Homestyle {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
   
   /* Parallax-Abschnitt */
-  .parallax {
-    background-image: url('../bilder/5my9Z0_d4Vw9LqaLN-nLZG.webp');
+.parallax {
+  background-image: url('../bilder/5my9Z0_d4Vw9LqaLN-nLZG.webp');
     
-    height: 250px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-  }
+  height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
 
 .geschichte-container {
-    position: relative;
-    background-image: url('../bilder/5my9Z0_d4Vw9LqaLN-nLZG.webp');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    margin: 0;
+  position: relative;
+  background-image: url('../bilder/5my9Z0_d4Vw9LqaLN-nLZG.webp');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  margin: 0;
 }
 
 .geschichte {
-    width: 50%;
-    height: 100%;
-    margin: 0px;
-    background-color: lightcyan;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
+  width: 50%;
+  height: 100%;
+  margin: 0px;
+  background-color: lightcyan;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
 }
 
-
+.heute-container {
+  
+}
 .heute {
-    padding: 20px;
-    margin: 20px;
-    background-color: lightcyan;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightcyan;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .geschichte h1, .heute h1 {
-    font-size: 2em;
-  }
+  font-size: 2em;
+}
+
 .geschichte p, .heute p {
-    font-size: 1em;
-    line-height: 1.6;
-  }
+  font-size: 1em;
+  line-height: 1.6;
+}
