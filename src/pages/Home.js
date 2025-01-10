@@ -1,58 +1,58 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../style/Home.css";
 
+// Carousel Images
+import Image1 from "../bilder/5my9Z0_d4Vw9LqaLN-nLZG.webp";
+import Image2 from "../bilder/5my9Z0_d4Vw9LqaLN-nLZG.webp";
+import Image3 from "../bilder/5my9Z0_d4Vw9LqaLN-nLZG.webp";
+
 function Home() {
+  const images = [Image1, Image2, Image3];
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 10000); // Switch image every 10 seconds
+
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, [images.length]);
+
   return (
-    <div className="Homestyle">
-
-      <div className="parallax"></div>
-
-      <div className="geschichte-container">
-        <div className="geschichte">
-          <h1>Geschichte</h1>
-          <p>
-            Pfungen, erstmals 993 n. Chr. urkundlich erwähnt, blickt auf eine lange Geschichte zurück. 
-            Der Name stammt vom altdeutschen „Funginga“, was „bei den Leuten des Fungo“ bedeutet. 
-            Ursprünglich ein Bauerndorf, prägten Landwirtschaft und die Nähe zur Töss die Entwicklung Pfungens. 
-            Im Mittelalter gehörte es teils zum Kloster Einsiedeln und teils zu den Grafen von Kyburg, 
-            bis es schließlich unter Zürcher Herrschaft kam.
-
-            Mit der Industrialisierung im 19. Jahrhundert wandelte sich Pfungen: Textil- und Maschinenindustrie 
-            prägten die Region, und die Bevölkerung wuchs. Der Anschluss an das Bahnnetz 1855 verstärkte diesen Wandel 
-            und machte das Dorf zu einem beliebten Wohnort für Pendler. Heute verbindet Pfungen modernes Leben mit Tradition; 
-            das historische Dorfzentrum und alte Gebäude wie die reformierte Kirche erinnern an seine Vergangenheit. 
-            In den letzten Jahrzehnten hat sich das Dorf kontinuierlich entwickelt, bleibt aber stark mit seiner Geschichte und Natur verbunden.
-          </p>
+    <div className="home-page">
+      {/* Carousel Section */}
+      <div className="carousel-container">
+        <div className="carousel-slide">
+          <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
         </div>
       </div>
 
-      <div className="heute-container">
-        <div className="heute">
-          <h1>Heutzutage</h1>
+      {/* Content Section */}
+      <div className="content">
+        <div className="content-box">
+          <h2>Willkommen in Pfungen</h2>
           <p>
-            Pfungen hat sich in den letzten Jahrzehnten stark verändert. Während das Dorf ursprünglich durch Landwirtschaft geprägt war, ist es heute vor allem ein attraktiver Wohnort für Pendler, die in Zürich arbeiten. Die Nähe zur Stadt und die gute Verkehrsanbindung tragen dazu bei, dass die Bevölkerung kontinuierlich wächst.
-          </p>
-          <p>
-            Wirtschaftlich ist Pfungen weniger von großen Industrien abhängig, sondern von einer Vielzahl kleinerer Unternehmen, vor allem im Dienstleistungs- und Handelssektor. Auch die landwirtschaftlichen Betriebe sind nach wie vor wichtig, doch ihre Zahl ist gesunken. Die Wirtschaftsstruktur hat sich hin zu einer Mischung aus modernen Arbeitsplätzen und traditionellem Handwerk verschoben.
-          </p>
-          <p>
-            In Bezug auf den sozialen Unterschied gibt es in Pfungen keine extremen Unterschiede zwischen Arm und Reich. Die Lebensqualität ist hoch, und die Region zieht vor allem Familien und gut verdienende Pendler an. Trotzdem bleibt das Dorf in vielen Bereichen noch sehr traditionell und naturverbunden. Die jüngere Generation schätzt sowohl die Nähe zur Großstadt als auch die ruhige, ländliche Atmosphäre.
+            Pfungen – das charmante Dorf im Grünen, eingebettet zwischen der Töss und sanften Hügeln. Unsere Gemeinde bietet eine perfekte Balance zwischen ländlicher Idylle und moderner Nähe zu den Städten Winterthur und Zürich. Erleben Sie unsere lebendige Gemeinschaft, vielfältige Freizeitmöglichkeiten und eine hohe Lebensqualität. Wir freuen uns, Sie in Pfungen willkommen zu heißen!
           </p>
         </div>
+        <div className="content-box">
+          <h2>Aktuelles</h2>
+          <ul>
+            <li>
+              <span>F</span>
+              <p>Dorffest</p>
+            </li>
+            <li>
+              <span>I</span>
+              <p>Gemeinde Versammlung</p>
+            </li>
+            <li>
+              <span>F</span>
+              <p>Rentner Wanderung</p>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div className="parallax"></div>
-
-      <div className="aktuell">
-        <h1>Aktuelles</h1>
-        <p>
-          balabablalabl
-        </p>
-      </div>
-
-      <div className="parallax"></div>
-
-
     </div>
   );
 }

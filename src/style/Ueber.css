@@ -1,0 +1,131 @@
+.ueber-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../bilder/5my9Z0_d4Vw9LqaLN-nLZG.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .ueber-page .navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .ueber-page .navigation a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .ueber-page .navigation a:hover {
+    text-decoration: underline;
+    color: #555;
+  }
+  
+  .ueber-page .content {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px auto 40px;
+    max-width: 1200px;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .ueber-page .content-box {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 45%;
+    text-align: left;
+  }
+  
+  .ueber-page .content-box h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .ueber-page .content-box p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+  }
+  
+  .ueber-page .carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  .ueber-page .carousel-slide {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 300px;
+    color: #333;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ueber-page .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 10;
+  }
+  
+  .ueber-page .carousel-btn.prev {
+    left: 10px;
+  }
+  
+  .ueber-page .carousel-btn.next {
+    right: 10px;
+  }
+  
+  .ueber-page .carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  @media (max-width: 768px) {
+    .ueber-page .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ueber-page .content-box {
+      width: 90%;
+    }
+  
+    .ueber-page .carousel-container {
+      width: 95%;
+    }
+  }
+  
