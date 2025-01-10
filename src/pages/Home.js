@@ -39,15 +39,15 @@ function Home() {
           <h2>Aktuelles</h2>
           <ul>
             <li>
-              <span>F</span>
+              <span>W</span>
               <p>Dorffest</p>
             </li>
             <li>
-              <span>I</span>
+              <span>W</span>
               <p>Gemeinde Versammlung</p>
             </li>
             <li>
-              <span>F</span>
+              <span>W</span>
               <p>Rentner Wanderung</p>
             </li>
           </ul>
